@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemRM", "RelatorioMei\SystemRM.csproj", "{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "System-RM", "..\Installer\System-RM\System-RM.vdproj", "{78824011-D01E-43CC-8187-EE0D408D67CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Debug|x86.ActiveCfg = Debug|x86
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Debug|x86.Build.0 = Debug|x86
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Release|x86.ActiveCfg = Release|x86
+		{BBDA0F18-B9AA-4660-A95E-F524FF523DB6}.Release|x86.Build.0 = Release|x86
+		{78824011-D01E-43CC-8187-EE0D408D67CE}.Debug|Any CPU.ActiveCfg = Debug
+		{78824011-D01E-43CC-8187-EE0D408D67CE}.Debug|x86.ActiveCfg = Debug
+		{78824011-D01E-43CC-8187-EE0D408D67CE}.Release|Any CPU.ActiveCfg = Release
+		{78824011-D01E-43CC-8187-EE0D408D67CE}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {923FEFE3-9521-4F5E-815F-D163DB955579}
+	EndGlobalSection
+EndGlobal

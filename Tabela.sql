@@ -1,0 +1,3 @@
+﻿CREATE TABLE [dbo].[Relatorio] ([Id_Relatorio] INT IDENTITY (1, 1) NOT NULL, [RevendaMer_NF] DECIMAL (18, 2) NULL, [RevendaMer_SNF] DECIMAL (18, 2) NULL, [RevendaMer_Total] DECIMAL (18, 2) NULL, [Servico_NF] DECIMAL (18, 2) NULL, [Servico_SNF] DECIMAL (18, 2) NULL, [Servico_Total] DECIMAL (18, 2) NULL, [VendaInd_NF] DECIMAL (18, 2) NULL, [VendaInd_SNF] DECIMAL (18, 2) NULL, [VendaInd_Total] DECIMAL (18, 2) NULL, [TotalReceitas] DECIMAL (18, 2) NULL, [periodoApuracao]  VARCHAR (20)    NULL, [AnoApuracao] VARCHAR (4) NULL, PRIMARY KEY CLUSTERED ([Id_Relatorio] ASC));
+
+CREATE TABLE [dbo].[Usuario] ( [Id_Usuario] INT IDENTITY (1, 1) NOT NULL, [Usuario]    VARCHAR (30)  NULL, [Senha] VARCHAR (MAX) NULL, PRIMARY KEY CLUSTERED ([Id_Usuario] ASC));
